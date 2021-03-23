@@ -200,7 +200,7 @@ class MainApplication(QMainWindow):
 
         self.show()
 
-if __name__ == "__main__":
+def run():
     app = QApplication(sys.argv)
     ex = MainApplication()
 
